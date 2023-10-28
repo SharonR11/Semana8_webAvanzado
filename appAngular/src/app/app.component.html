@@ -112,6 +112,12 @@
     <button (click)="decrementar()">Restar 1</button>
   </div>
 
+  <div>
+    <p>Ingrese Profesion <input type="text" [(ngModel)]="profesion"></p>
+    <p>Ingrese Años Experiencia <input type="text" [(ngModel)]="anios"></p>
+    <p>Dato Completo : Es {{profesion}} con {{anios}} años de experiencia</p>
+  </div>
+
   <!-- Next Steps -->
   <h2>Next Steps</h2>
   <p>What do you want to do next with your app?</p>

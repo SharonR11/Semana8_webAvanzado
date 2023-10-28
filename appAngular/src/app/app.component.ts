@@ -32,4 +32,6 @@ export class AppComponent {
   decrementar(){
     this.contador--;
   }
+  profesion = '';
+  anios = '';
 }
