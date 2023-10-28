@@ -25,4 +25,11 @@ export class AppComponent {
       suma+=this.sueldos[x];
     return suma;
   }
+  contador = 1;
+  incrementar(){
+    this.contador++;
+  }
+  decrementar(){
+    this.contador--;
+  }
 }
