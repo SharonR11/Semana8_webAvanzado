@@ -12,6 +12,7 @@ export class AppComponent {
   email = 'sharon.rudas@tecsup.edu.pe';
   sueldos = [1700,1600,1900];
   activo = true;
+  sitio='http://www.google.com';
   esActivo(){
     if (this.activo)
       return 'Trabajador Activo';

@@ -329,12 +329,15 @@
 
   <div class="card-container">
     
-      <div class="card">
+      <div class="">
         <p>Nombre del Empleado: {{nombre}}</p>
         <p>Edad: {{edad}}</p>
         <p>Los ultimos tres sueldos son: {{sueldos[0]}},{{sueldos[1]}} y {{sueldos[2]}}</p>
         <p>En los ultimos 3 meses ha ganado: {{ultimo3Sueldos()}}</p>
         <p>{{esActivo()}}</p>
+        <p>En los últimos 3 meses ha ganado: {{sueldos[0]+sueldos[1]+sueldos[2]}}</p>
+        <p>El empleado dentro de 5 años tendrá:{{edad+5}}</p>
+        <p>Puede visitar el sitio ingresando <a href="{{sitio}}">aquí</a></p>
       </div>
 
   </div>
